@@ -1,4 +1,4 @@
-package com.clcomputing.datapower.openpgp;
+package com.clcomputing.openpgp;
 
 import org.bouncycastle.bcpg.ArmoredOutputStream;
 import org.bouncycastle.bcpg.HashAlgorithmTags;

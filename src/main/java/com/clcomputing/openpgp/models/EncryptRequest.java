@@ -1,4 +1,4 @@
-package com.clcomputing.datapower.openpgp.models;
+package com.clcomputing.openpgp.models;
 
 public class EncryptRequest {
     public String publickey; // expecting base64

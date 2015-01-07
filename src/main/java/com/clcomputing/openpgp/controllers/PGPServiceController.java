@@ -1,8 +1,8 @@
-package com.clcomputing.datapower.openpgp.controllers;
+package com.clcomputing.openpgp.controllers;
 
-import com.clcomputing.datapower.openpgp.models.DecryptRequest;
-import com.clcomputing.datapower.openpgp.models.EncryptRequest;
-import com.clcomputing.datapower.openpgp.Processor;
+import com.clcomputing.openpgp.models.DecryptRequest;
+import com.clcomputing.openpgp.models.EncryptRequest;
+import com.clcomputing.openpgp.Processor;
 import com.google.gson.Gson;
 import org.bouncycastle.openpgp.PGPPublicKey;
 import org.bouncycastle.openpgp.PGPPublicKeyRingCollection;

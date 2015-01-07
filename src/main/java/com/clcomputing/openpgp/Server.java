@@ -1,4 +1,4 @@
-package com.clcomputing.datapower.openpgp;
+package com.clcomputing.openpgp;
 
 import com.sun.jersey.api.container.ContainerFactory;
 import com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory;
@@ -24,7 +24,7 @@ public class Server {
         Security.addProvider(new BouncyCastleProvider());
 
         // Start webserver for API
-        ResourceConfig rc = new PackagesResourceConfig("com.clcomputing.datapower.openpgp.controllers");
+        ResourceConfig rc = new PackagesResourceConfig("com.clcomputing.openpgp.controllers");
 
         URI httpURI = UriBuilder.fromUri("http://0.0.0.0")
                 .port(8080)

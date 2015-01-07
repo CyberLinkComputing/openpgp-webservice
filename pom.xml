@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>DataPowerPGPWebService</groupId>
-    <artifactId>DataPowerPGPWebService</artifactId>
+    <groupId>OpenPGPWebService</groupId>
+    <artifactId>v</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -72,7 +72,7 @@
                 <configuration>
                     <programs>
                         <program>
-                            <mainClass>com.clcomputing.datapower.openpgp.Server</mainClass>
+                            <mainClass>com.clcomputing.openpgp.Server</mainClass>
                             <id>openpgpwebservice</id>
                         </program>
                     </programs>
