@@ -1,0 +1,43 @@
+ISA*00*ASCENTIAL *01*92511930  *zz*mycompany      *zz*mypartner      *940401*0942*U*00201*000000002*0*T*>
+GS*PO*006250740*3122721850*940401*0942*1*X*002003
+ST*850*1   
+BEG*12*BY*ab100**931028
+NTE**This is a header message
+SHH*DD*001*930701
+N1*BT*Distributor Co
+N3*2345 Waukegan Rd*E100
+N4*Bannockburn*IL*60015*US
+PO1*1*500*EA*45.26**IN*800-ABT1
+NTE**Please paint this blue
+PO1*1A*1000*EA*22.12**IN*900-ABT1
+NTE**Again, print this message
+CTT*2
+SE*13*1   
+ST*850*2   
+BEG*12*BY*ab100**931028
+NTE**This is a header message
+SHH*DD*001*930701
+N1*BT*Distributor Co
+N3*2345 Waukegan Rd*E100
+N4*Bannockburn*IL*60015*US
+PO1*1*500*EA*45.26**IN*800-ABT1
+NTE**Please paint this blue
+PO1*1A*1000*EA*22.12**IN*900-ABT1
+NTE**Again, print this message
+CTT*2
+SE*13*2   
+ST*850*3   
+BEG*12*BY*ab100**931028
+NTE**This is a header message
+SHH*DD*001*930701
+N1*BT*Distributor Co
+N3*2345 Waukegan Rd*E100
+N4*Bannockburn*IL*60015*US
+PO1*1*500*EA*45.26**IN*800-ABT1
+NTE**Please paint this blue
+PO1*1A*1000*EA*22.12**IN*900-ABT1
+NTE**Again, print this message
+CTT*2
+SE*13*3   
+GE*3*1
+IEA*1*000000002

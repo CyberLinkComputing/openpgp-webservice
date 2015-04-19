@@ -6,9 +6,8 @@ session.input.readAsBuffer(function (error, buffer) {
     if (error) {
         throw error;
     }
-
-    var sm = require ('service-metadata');
-    var toID = sm.getVar ('var://service/b2b-partner-to');
+    var ctx = session.name('message');
+    var toID = ctx.getVar('b2bto');
 
     pgpservice.encryptData(toID, buffer)
         .then(function (response) {

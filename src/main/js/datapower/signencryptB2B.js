@@ -7,9 +7,9 @@ session.input.readAsBuffer(function (error, buffer) {
         throw error;
     }
 
-    var sm = require ('service-metadata');
-    var fromID = sm.getVar ('var://service/b2b-partner-from');
-    var toID = sm.getVar ('var://service/b2b-partner-to');
+    var ctx = session.name('message');
+    var toID = ctx.getVar('b2bto');
+    var fromID = ctx.getVar('b2bfrom');
 
     pgpservice.encryptAndSignData(fromID, toID, buffer)
         .then(function (response) {
